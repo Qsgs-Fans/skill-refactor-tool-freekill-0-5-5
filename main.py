@@ -10,9 +10,6 @@ def main():
 
     path = args[1]
     pkg = FkPackage(path)
-    obj = pkg.skills['jilei']
-    print(obj['content'])
-    print(obj['translations'])
     pkg.mkSkillDir()
 
 if __name__ == "__main__":
